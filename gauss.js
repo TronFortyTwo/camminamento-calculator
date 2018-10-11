@@ -74,13 +74,13 @@ function confirm()
 	cell1.innerHTML = "lato&nbsp;" + ptnum;
 	if(ptnum > 1)
 	{
-		cell2.innerHTML = ang;
+		cell2.innerHTML = "<center>" + ang + "</center>";
 	}
 	else
 	{
-		cell2.innerHTML = "---";
+		cell2.innerHTML = "<center>---</center>";
 	}
-	cell3.innerHTML = lat;
+	cell3.innerHTML = "<center>" + lat + "</center>";
 	
 	new_row.appendChild(cell1);
 	new_row.appendChild(cell2);
